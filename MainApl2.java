@@ -22,7 +22,7 @@ public class MainApl2 {
 		
 		// TODO: Carregar o conteúdo do arquivo "dados.txt" e adicionar cada linha como um nó na LinkedListOriginal list.
 		try{
-			String[] data = Data.loadTextFileToString("c:/users/dell/downloads/dados.txt").split("\n");
+			String[] data = Data.loadTextFileToString("dados.txt").split("\n");
 			for(int i = 0; i < data.length; i++){
 				String[] linha = data[i].split("#");
 				list.append(Integer.parseInt(linha[0]), linha[1], Integer.parseInt(linha[2]), Integer.parseInt(linha[3]));
