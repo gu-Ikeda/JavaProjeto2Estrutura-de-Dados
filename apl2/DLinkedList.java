@@ -248,35 +248,16 @@ public class DLinkedList {
 //					exemplo do método toString() da classe LinkedListOriginal).
 	@Override
 	public String toString() {
-		/*String s = "";
-		
-		for(Node no = head; no != null; no = no.getProx()){
-			System.out.println("Pedro");
-			s += "("+no.getId()+" ; "+no.getNome()+" ; "+no.getNota()+") -> \n"; 
-		}
-		
-		return s;*/
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("(" + count + ") \n");
 		
 		Node node = head;
 		while (node != null) {
-
-			/*sb.append(""+node.getAnt())
-			.append(" <- (")
-			.append(node.getId())
-			.append(" ; ")
-			.append(node.getNome())
-			.append(" ; ")
-			.append(node.getNota())
-			.append(") -> ")
-			.append(""+node.getProx()+"\n");*/
 			sb.append(""+node+"\n");
 			node = node.getProx();
 		}
-		//sb.append(".\n");
-		
+
 		return sb.toString();
 	}
 
