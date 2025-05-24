@@ -59,14 +59,14 @@ public class Operation {
 	 * @return Uma nova {@code DLinkedList} que contém a coleção de dados ({@code data}) filtrada com nós que possuem apenas pessoas com notas válidas.
 	 */
 	public static DLinkedList filterRemoveNonGraded(final DLinkedList data) {
-		// TODO: Implementar o método e remover o lançamento de exceção abaixo.
+		
 		DLinkedList dl = new DLinkedList();
 		for(Node aux = data.getHead(); aux != null; aux = aux.getProx()){
 			if(aux.getNota() != 99.9f){
 				dl.append(aux.getId(), aux.getNome(), aux.getNota());
 			}
 		}
-		//throw new UnsupportedOperationException("Método ainda não implementado.");
+		
 		return dl;
 	}
 
@@ -80,14 +80,14 @@ public class Operation {
 	 * @return Uma nova {@code DLinkedList} que contém a coleção de dados ({@code data}) filtrada com nós que possuem apenas pessoas com notas inválidas.
 	 */
 	public static DLinkedList filterRemoveGraded(final DLinkedList data) {
-		// TODO: Implementar o método e remover o lançamento de exceção abaixo.
+		
 		DLinkedList dl = new DLinkedList();
 		for(Node aux = data.getHead(); aux != null; aux = aux.getProx()){
 			if(aux.getNota() == 99.9f){
 				dl.append(aux.getId(), aux.getNome(), aux.getNota());
 			}
 		}
-		//throw new UnsupportedOperationException("Método ainda não implementado.");
+		
 		return dl;
 	}
 
@@ -110,8 +110,7 @@ public class Operation {
 			}
 		}
 		return dl;
-		// TODO: Implementar o método e remover o lançamento de exceção abaixo.
-		//throw new UnsupportedOperationException("Método ainda não implementado.");
+		
 	}
 	
 	/**
@@ -130,9 +129,6 @@ public class Operation {
 		}
 		return soma/data.count();
 
-
-		// TODO: Implementar o método e remover o lançamento de exceção abaixo.
-		// throw new UnsupportedOperationException("Método ainda não implementado.");
 	}
 
 	/**
@@ -150,8 +146,6 @@ public class Operation {
 		for(Node aux = data.getHead(); aux != null; aux = aux.getProx()){
 			s += aux.getId()+";"+aux.getNome()+";"+aux.getNota()+"\n";
 		}
-		// TODO: Implementar o método e remover o lançamento de exceção abaixo.
-		//throw new UnsupportedOperationException("Método ainda não implementado.");
 		return s;
 	}
 
