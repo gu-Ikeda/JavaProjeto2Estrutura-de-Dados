@@ -49,7 +49,7 @@ public class DLinkedList {
 			node.prox = head;
 			
 		}
-		//node.prox = head; // novo nó aponta para o nó existente ou para se mesmo caso a lista esteja vazia
+		node.prox = head; // novo nó aponta para o nó existente ou para se mesmo caso a lista esteja vazia
 		head = node; //head aponta para o novo nó
 		count++;
 	}
