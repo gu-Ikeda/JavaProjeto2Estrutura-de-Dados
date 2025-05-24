@@ -2,8 +2,10 @@ package apl2;
 // arquivo: src/apl2/Node.java
 
 // TODO: Colocar a identificação dos(as) integrantes aqui.
-
-
+//Jiye Huang RA:10438990
+//Gabriel Mires Camargo RA: 10436747
+// Pedro Caetano de Toledo Piza RA:10426861
+//Gustavo Kiyoshi Ikeda Ra:10439179
 
 // -- A classe Node (que pertence ao pacote apl2) deve conter os atributos que
 // representam a nova versão dos dados de uma pessoa, conforme descrito no

@@ -4,7 +4,10 @@
 // arquivo: src/apl2/Operation.java
 
 // TODO: Colocar a identificação dos(as) integrantes aqui.
-
+//Jiye Huang RA:10438990
+//Gabriel Mires Camargo RA: 10436747
+// Pedro Caetano de Toledo Piza RA:10426861
+//Gustavo Kiyoshi Ikeda Ra:10439179
 package apl2;
 
 public class Operation {
