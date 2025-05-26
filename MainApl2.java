@@ -13,7 +13,9 @@
 //Gustavo Kiyoshi Ikeda Ra:10439179
 
 // TODO: Listar todas as referências consultadas para solucionar a atividade.
-
+//https://www.geeksforgeeks.org/introduction-to-doubly-linked-lists-in-java/
+//https://youtu.be/sUcVDPDHFJg?si=QYkkf83IWksamNWH
+//
 import apl2.DLinkedList;
 import apl2.Data;
 import apl2.LinkedListOriginal;
